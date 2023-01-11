@@ -243,3 +243,102 @@ body {
     border-radius: 10px;
     position: relative;
 }
+
+@media (max-width: 720px) {
+    .container {
+      flex-direction: column;
+    }
+    #taskList {
+      margin-left: 0px;
+
+    }
+    #Additem {
+      margin-top: 20px;
+      margin-right: 0px;
+    }
+    #parent {
+      justify-content: center;
+    }
+     #msg {
+        margin-top: 50px;
+        margin-left: -50px;
+    } 
+    .item {
+      margin: 20px 0;
+    }
+    .new {
+      width: 300px;
+      height: 200px;
+      top: calc((100vh - 200px) / 2);
+      left: calc((100vw - 320px) / 2);
+    }
+    .new input {
+      width: 200px;
+    }
+    .new p {
+      font-size: 20px;
+    }
+    .popupWindow button {
+      width: 80px;
+      padding: 8px 15px;
+    }
+    .item_Detail {
+      width: 150px;
+    }
+    .item_Detail p {
+      font-size: 12px;
+    }
+    .item_Detail input {
+      width: 100px;
+    }
+    .item_Detail button {
+      font-size: 12px;
+    }
+    .item_Detail .close {
+      width: 40px;
+      height: 40px;
+    }
+    .item_Detail .close p {
+      font-size: 20px;
+    }
+    .item_Detail .close:hover {
+      background-color: rgb(255, 0, 0);
+    }
+    .item_Detail .addtask {
+      font-size: 1.5rem;
+      right: 50px;
+      bottom: 15px;
+    }
+    .item_Detail .addtask p {
+      font-size: 20px;
+    }
+    .item_Detail .addtask:hover {
+      color: rgb(255, 0, 255);
+    }
+    .item_Detail .btn {
+      font-size: 8px;
+    }
+    .item_Detail .marked {
+      font-size: 12px;
+    }
+    .item_Detail .hide {
+      display: block;
+    }
+    .item_Detail .hide p {
+      font-size: 12px;
+    }
+    .item_Detail .hide:hover {
+      color: rgb(255, 0, 255);
+    }
+    .item_Detail .hide:hover p {
+      color: rgb(255, 0, 255);
+    }
+    .item_Detail .hide:hover .hide {
+      color: rgb(255, 0, 255);
+    }
+    .item_Detail .hide:hover .hide p {
+      color: rgb(255, 0, 255);
+    }
+   
+
+  }
